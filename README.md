@@ -170,11 +170,50 @@ sequenceDiagram
 
 ## Installation and Setup
 
-TODO
+### Documentation
+
+https://book.getfoundry.sh/
+
+### Build
+
+```shell
+$ forge build
+```
+
+### Format
+
+```shell
+$ forge fmt
+```
+
+### Gas Snapshots
+
+```shell
+$ forge snapshot
+```
+
+### Anvil
+
+```shell
+$ anvil
+```
 
 ## Usage Guide
 
-TODO
+### Test all project
+```
+make test_all
+```
+
+### Test call option
+```
+make test_core
+```
+### Test AVS task manager
+```
+make test_avs
+```
+
 
 ## Future Roadmap
 
